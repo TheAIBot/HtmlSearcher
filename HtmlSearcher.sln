@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlSearcher", "HtmlSearcher\HtmlSearcher.csproj", "{5754C974-C372-4DD5-A247-EAE018956608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Super Memo Card Generator", "..\..\Memo Card Generator\Super Memo Card Generator 0.3 Using HtmlSearcher 0.2\Super Memo Card Generator\Super Memo Card Generator.csproj", "{9484C586-C183-40AE-82F8-CDB687E97877}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5754C974-C372-4DD5-A247-EAE018956608} = {5754C974-C372-4DD5-A247-EAE018956608}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5754C974-C372-4DD5-A247-EAE018956608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5754C974-C372-4DD5-A247-EAE018956608}.Release|x86.ActiveCfg = Release|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9484C586-C183-40AE-82F8-CDB687E97877}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
